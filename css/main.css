@@ -1,0 +1,28 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #404040;
+  color: #aaffaa;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main .choix {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-right: 0;
+}
+main .choix:last-child {
+  margin-right: 0;
+}

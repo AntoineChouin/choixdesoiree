@@ -1,0 +1,27 @@
+@import "bourbon";
+@import "neat";
+@import "helpers/variable";
+
+main {
+    background-color: lighten(#000, 25%);
+    color: $color1;
+    @include outer-container;
+
+    // @include respond-to(handhelds) {
+    //     width: 100%;
+    //     color: $color1;
+    // }
+    // @include respond-to(medium-screens) {
+    //     width: 125px;
+    //     color: $color2;
+    // }
+    // @include respond-to(wide-screens) {
+    //     float: none;
+    //     color: $color3;
+    // }
+
+    .choix {
+        @include span-columns(3);
+        @include omega();
+    }
+}
